@@ -1,0 +1,234 @@
+html{
+  height:100%;
+}
+
+body {
+/*font-family: 'Nunito', sans-serif;*/
+font-family: 'Varela Round', sans-serif;
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+height:100%;
+  width:100%;
+}
+
+#testy {
+  background-color: #5EFB6E;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 20%;
+  font-weight: 900;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#testy:focus {
+  outline:0;
+}
+
+#testy:active {
+  font-size: 18px;
+  padding: 3.5px 8px;
+  background-color:#40DD50;
+
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#temp {
+  display: inline;
+  position: relative;
+  float:right;
+  right:5%;
+  color:white;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.ui-widget {
+  position: relative;
+  left:5%;
+}
+
+#stayback {
+  height:100%;
+  width:100%;
+}
+
+#earth_div {
+  position: absolute !important;
+      top: 15%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: cover;
+}
+
+#stayback {
+  z-index:-100;
+}
+
+.comeforward {
+  z-index:100;
+  position:fixed;
+  top:5%;
+  width:100%;
+}
+
+#hello {
+  display: inline;
+  position: relative;
+  float: left;
+  left:5%;
+  color:white;
+  font-weight: 100;
+  font-size: 25px;
+
+}
+
+
+#outside {
+  display: block;
+  padding-top: 0px;
+  position: relative;
+  text-align: center;
+  margin: auto auto auto auto;
+  /*margin-left: -10%;*/
+  color:white;
+  font-weight: 900;
+  font-size: 60px;
+  width:500px;
+  /*text-shadow: 3px 3px #F9A7B0;*/
+  text-shadow: 3px 3px salmon;
+
+}
+
+#darken {
+  background-color: rgba(250, 128, 114,0.5);
+  height:100%;
+  width:100%;
+}
+
+
+
+/*----------------------------------------------------*/
+
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#thanks {
+  font-size: 12px;
+  font-weight: 100;
+  color:white;
+  position:fixed;
+  bottom:0;
+  left:15px;
+}
+
+/*---------------------------------------------------------------*/
+
+#animation {
+  z-index:1000;
+  width: 225px;
+  height: 225px;
+  margin:  -290px auto;
+  background: url('') left center;
+  animation: play 2s steps(30) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -6750px; }
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+/*======================================================================*/
+
+.hvr-grow {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+#mobile {
+  display:block;
+  position:fixed;
+  top:0;
+  height:100%;
+  width:100%;
+  z-index: 1001;
+  background: black;
+  text-align: center;
+}
+
+
+}

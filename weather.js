@@ -48,7 +48,7 @@ var outside;
 //-------------------------------------------------------------
   $.ajax({
 
-  url : "http://api.wunderground.com/api/b3f430ab2b2ad94f/geolookup/conditions/q/"+city+".json",
+  url : "https://api.wunderground.com/api/b3f430ab2b2ad94f/geolookup/conditions/q/"+city+".json",
   dataType : "jsonp",
   success : function(parsed_json) {
    location = parsed_json['location']['city'];

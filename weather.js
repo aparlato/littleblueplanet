@@ -233,7 +233,7 @@ function initialize(){
     //proxyHost: 'http://srtm.webglearth.com/cgi-bin/corsproxy.fcgi?url='
   });
 
-  var baselayer = WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  var baselayer = WE.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
   //var baselayer = WE.tileLayer('test/index.html/{z}/{x}/{y}.png',{
 
 

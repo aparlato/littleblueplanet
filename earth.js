@@ -1,6 +1,6 @@
 function initialize() {
   var earth = new WE.map('earth_div');
-  WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(earth);
+  WE.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(earth);
 
   // Start a simple rotation animation
 var before = null;

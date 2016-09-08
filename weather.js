@@ -233,11 +233,10 @@ function initialize(){
     //proxyHost: 'http://srtm.webglearth.com/cgi-bin/corsproxy.fcgi?url='
   });
 
-  var baselayer = WE.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-  //var baselayer = WE.tileLayer('test/index.html/{z}/{x}/{y}.png',{
+  //var baselayer = WE.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  var baselayer = WE.tileLayer('https://api.mapbox.com/styles/v1/aparlato/cisuvcecq005s2woxwcjn3wql/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYXBhcmxhdG8iLCJhIjoiY2lzdWt3NDExMGJjeDJucWdlZjlhejg2cSJ9.Q7H91w3CryPadhz9joVezw',{
 
 
-    //attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
 

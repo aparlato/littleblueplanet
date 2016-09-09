@@ -265,12 +265,12 @@ animation: party 0.5s infinite;
 
 @media (max-width: 767px) {
 
-#hideMobile {
-  display:none;
+#hidemobile {
+  display:none !important;
 }
 
 #mobile {
-  display:block;
+  display:block !important;
   position:fixed;
   top:0;
   height:100%;

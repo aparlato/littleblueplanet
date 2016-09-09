@@ -145,7 +145,7 @@ if (rainyDay==="rain"){
   }).fadeTo('slow', 1);
 }
 
-else if (rainyDay==="cloudy"){
+else if (rainyDay==="cloudy"||rainyDay==="fog"){
   $('#animation').fadeTo('slow', 0.3, function()
   {
       $(this).css('background', 'url(icons/cloudy.png)');
